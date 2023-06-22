@@ -2,7 +2,7 @@
 //  AR_SampleUITests.swift
 //  AR SampleUITests
 //
-//  Created by Atomicflare on 2023-06-19.
+//  Created by Richard Jason Lee on 2023-06-19.
 //
 
 import XCTest

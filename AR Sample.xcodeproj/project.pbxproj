@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793918A12A4201020092E29D /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918A02A4201020092E29D /* ARView.swift */; };
+		793918A22A4201020092E29D /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918A02A4201020092E29D /* ARView.swift */; };
+		793918A32A4201020092E29D /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918A02A4201020092E29D /* ARView.swift */; };
+		793918A52A4203290092E29D /* ARSpriteKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918A42A4203290092E29D /* ARSpriteKitView.swift */; };
+		793918A62A4203290092E29D /* ARSpriteKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918A42A4203290092E29D /* ARSpriteKitView.swift */; };
+		793918A72A4203290092E29D /* ARSpriteKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918A42A4203290092E29D /* ARSpriteKitView.swift */; };
+		793918AD2A421A310092E29D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918AC2A421A310092E29D /* UserManager.swift */; };
+		793918AE2A421A310092E29D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918AC2A421A310092E29D /* UserManager.swift */; };
+		793918AF2A421A310092E29D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918AC2A421A310092E29D /* UserManager.swift */; };
+		793918B12A4220FF0092E29D /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918B02A4220FF0092E29D /* Sounds.swift */; };
+		793918B22A4220FF0092E29D /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918B02A4220FF0092E29D /* Sounds.swift */; };
+		793918B32A4220FF0092E29D /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918B02A4220FF0092E29D /* Sounds.swift */; };
+		793918B52A4224340092E29D /* GameExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918B42A4224340092E29D /* GameExtensions.swift */; };
+		793918B62A4224340092E29D /* GameExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918B42A4224340092E29D /* GameExtensions.swift */; };
+		793918B72A4224340092E29D /* GameExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793918B42A4224340092E29D /* GameExtensions.swift */; };
+		793918B92A424E9F0092E29D /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 793918B82A424E9F0092E29D /* Sounds */; };
+		793918BA2A424E9F0092E29D /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 793918B82A424E9F0092E29D /* Sounds */; };
+		793918BB2A424E9F0092E29D /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 793918B82A424E9F0092E29D /* Sounds */; };
 		79A87D262A40B09F00182D25 /* AR_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87D252A40B09F00182D25 /* AR_SampleApp.swift */; };
 		79A87D282A40B09F00182D25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87D272A40B09F00182D25 /* ContentView.swift */; };
 		79A87D2A2A40B0A200182D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A87D292A40B0A200182D25 /* Assets.xcassets */; };
@@ -14,6 +32,13 @@
 		79A87D372A40B0A300182D25 /* AR_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87D362A40B0A300182D25 /* AR_SampleTests.swift */; };
 		79A87D412A40B0A300182D25 /* AR_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87D402A40B0A300182D25 /* AR_SampleUITests.swift */; };
 		79A87D432A40B0A300182D25 /* AR_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A87D422A40B0A300182D25 /* AR_SampleUITestsLaunchTests.swift */; };
+		79D8B0D32A40B4460041F46A /* SpriteKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8B0D22A40B4460041F46A /* SpriteKitView.swift */; };
+		79D8B0E52A40CB760041F46A /* ARGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8B0E42A40CB760041F46A /* ARGameScene.swift */; };
+		79D8B0E62A40CB760041F46A /* ARGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8B0E42A40CB760041F46A /* ARGameScene.swift */; };
+		79D8B0E72A40CB760041F46A /* ARGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8B0E42A40CB760041F46A /* ARGameScene.swift */; };
+		79D8B0E92A40D13B0041F46A /* GameAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8B0E82A40D13B0041F46A /* GameAnchor.swift */; };
+		79D8B0EA2A40D13B0041F46A /* GameAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8B0E82A40D13B0041F46A /* GameAnchor.swift */; };
+		79D8B0EB2A40D13B0041F46A /* GameAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8B0E82A40D13B0041F46A /* GameAnchor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		793918A02A4201020092E29D /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		793918A42A4203290092E29D /* ARSpriteKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSpriteKitView.swift; sourceTree = "<group>"; };
+		793918AC2A421A310092E29D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		793918B02A4220FF0092E29D /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		793918B42A4224340092E29D /* GameExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameExtensions.swift; sourceTree = "<group>"; };
+		793918B82A424E9F0092E29D /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		79A87D222A40B09F00182D25 /* AR Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A87D252A40B09F00182D25 /* AR_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_SampleApp.swift; sourceTree = "<group>"; };
 		79A87D272A40B09F00182D25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +75,10 @@
 		79A87D3C2A40B0A300182D25 /* AR SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A87D402A40B0A300182D25 /* AR_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_SampleUITests.swift; sourceTree = "<group>"; };
 		79A87D422A40B0A300182D25 /* AR_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79D8B0D22A40B4460041F46A /* SpriteKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitView.swift; sourceTree = "<group>"; };
+		79D8B0E42A40CB760041F46A /* ARGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameScene.swift; sourceTree = "<group>"; };
+		79D8B0E82A40D13B0041F46A /* GameAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAnchor.swift; sourceTree = "<group>"; };
+		79F7B0D32A40EA5300E54FC8 /* AR-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AR-Sample-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +129,13 @@
 		79A87D242A40B09F00182D25 /* AR Sample */ = {
 			isa = PBXGroup;
 			children = (
+				79F7B0D32A40EA5300E54FC8 /* AR-Sample-Info.plist */,
 				79A87D252A40B09F00182D25 /* AR_SampleApp.swift */,
 				79A87D272A40B09F00182D25 /* ContentView.swift */,
 				79A87D292A40B0A200182D25 /* Assets.xcassets */,
+				79D8B0D12A40B3ED0041F46A /* SpriteKitAR */,
 				79A87D2B2A40B0A200182D25 /* Preview Content */,
+				793918AC2A421A310092E29D /* UserManager.swift */,
 			);
 			path = "AR Sample";
 			sourceTree = "<group>";
@@ -125,6 +163,21 @@
 				79A87D422A40B0A300182D25 /* AR_SampleUITestsLaunchTests.swift */,
 			);
 			path = "AR SampleUITests";
+			sourceTree = "<group>";
+		};
+		79D8B0D12A40B3ED0041F46A /* SpriteKitAR */ = {
+			isa = PBXGroup;
+			children = (
+				793918B82A424E9F0092E29D /* Sounds */,
+				79D8B0D22A40B4460041F46A /* SpriteKitView.swift */,
+				793918A02A4201020092E29D /* ARView.swift */,
+				793918A42A4203290092E29D /* ARSpriteKitView.swift */,
+				79D8B0E42A40CB760041F46A /* ARGameScene.swift */,
+				793918B42A4224340092E29D /* GameExtensions.swift */,
+				79D8B0E82A40D13B0041F46A /* GameAnchor.swift */,
+				793918B02A4220FF0092E29D /* Sounds.swift */,
+			);
+			path = SpriteKitAR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793918B92A424E9F0092E29D /* Sounds in Resources */,
 				79A87D2D2A40B0A200182D25 /* Preview Assets.xcassets in Resources */,
 				79A87D2A2A40B0A200182D25 /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793918BA2A424E9F0092E29D /* Sounds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793918BB2A424E9F0092E29D /* Sounds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793918AD2A421A310092E29D /* UserManager.swift in Sources */,
+				79D8B0E52A40CB760041F46A /* ARGameScene.swift in Sources */,
+				79D8B0E92A40D13B0041F46A /* GameAnchor.swift in Sources */,
+				793918A52A4203290092E29D /* ARSpriteKitView.swift in Sources */,
+				79D8B0D32A40B4460041F46A /* SpriteKitView.swift in Sources */,
 				79A87D282A40B09F00182D25 /* ContentView.swift in Sources */,
+				793918B12A4220FF0092E29D /* Sounds.swift in Sources */,
 				79A87D262A40B09F00182D25 /* AR_SampleApp.swift in Sources */,
+				793918A12A4201020092E29D /* ARView.swift in Sources */,
+				793918B52A4224340092E29D /* GameExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +330,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793918A62A4203290092E29D /* ARSpriteKitView.swift in Sources */,
+				793918B62A4224340092E29D /* GameExtensions.swift in Sources */,
+				79D8B0E62A40CB760041F46A /* ARGameScene.swift in Sources */,
+				793918AE2A421A310092E29D /* UserManager.swift in Sources */,
+				793918A22A4201020092E29D /* ARView.swift in Sources */,
+				793918B22A4220FF0092E29D /* Sounds.swift in Sources */,
 				79A87D372A40B0A300182D25 /* AR_SampleTests.swift in Sources */,
+				79D8B0EA2A40D13B0041F46A /* GameAnchor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +345,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793918A32A4201020092E29D /* ARView.swift in Sources */,
+				79D8B0EB2A40D13B0041F46A /* GameAnchor.swift in Sources */,
+				79D8B0E72A40CB760041F46A /* ARGameScene.swift in Sources */,
+				793918B32A4220FF0092E29D /* Sounds.swift in Sources */,
+				793918A72A4203290092E29D /* ARSpriteKitView.swift in Sources */,
+				793918B72A4224340092E29D /* GameExtensions.swift in Sources */,
 				79A87D412A40B0A300182D25 /* AR_SampleUITests.swift in Sources */,
+				793918AF2A421A310092E29D /* UserManager.swift in Sources */,
 				79A87D432A40B0A300182D25 /* AR_SampleUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +498,8 @@
 				DEVELOPMENT_TEAM = 4JC65UG52E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AR-Sample-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow for AR Content.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +529,8 @@
 				DEVELOPMENT_TEAM = 4JC65UG52E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AR-Sample-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow for AR Content.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -2,7 +2,7 @@
 //  AR_SampleTests.swift
 //  AR SampleTests
 //
-//  Created by Atomicflare on 2023-06-19.
+//  Created by Richard Jason Lee on 2023-06-19.
 //
 
 import XCTest
@@ -19,11 +19,34 @@ final class AR_SampleTests: XCTestCase {
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+       struct MyObject {
+           let name: String
+           let age: Int
+
+           init(name: String, age: Int) {
+               self.name = name
+               self.age = age
+           }
+       }
+
+       let namesArray = ["John", "Jane", "Adam"]
+       let ageArray = [30,25,34]
+       
+       
+       let tupleArray = [("John", 30), ("Jane", 25), ("Adam", 35)]
+
+       
+       
+       
+       let objectArray = zip(namesArray, ageArray).map(MyObject.init)
+
+       let nameKeyPath = \MyObject.name
+       let names = objectArray.map(\.name)
+       
+       print(names)
+       for obj in objectArray {
+           print("Name: \(obj.name), Age: \(obj.age)")
+       }
     }
 
     func testPerformanceExample() throws {

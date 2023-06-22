@@ -2,7 +2,7 @@
 //  AR_SampleApp.swift
 //  AR Sample
 //
-//  Created by Atomicflare on 2023-06-19.
+//  Created by Richard Jason Lee on 2023-06-19.
 //
 
 import SwiftUI
